@@ -1,0 +1,29 @@
+.chatBox {
+  width: auto;
+  padding: 20px;
+  background-color: #fff;
+  flex: 10;
+  overflow-y: scroll;
+}
+
+.newChat {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+
+.newChat__button {
+  height: 50%;
+}
+
+.newChat__input {
+  width: 75%;
+  font-family: sans-serif;
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 20px;
+  outline: none;
+  resize: none;
+}
